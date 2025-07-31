@@ -1,11 +1,11 @@
-# RESTful-201-Web-API
-### How CreatedAtAction and GetById Work in ASP.NET Core 
+#  *RESTful 201 Web API*
+###  *How CreatedAtAction and GetById Work in ASP.NET Core*
 <br>
 <br>
 
-### Note: The 201 Created status or CreatedAtAction return is only used when creating new data only.
+###  *Note: The 201 Created status or CreatedAtAction return is only used when creating new data only.*
 
-### Controller logic
+###  *Controller logic*
 
 ```csharp
 using Microsoft.AspNetCore.Http;
@@ -63,7 +63,7 @@ namespace RecordManagementSystem.Controllers.Account
 <br>
 <br>
 
-### Interface logic
+###  *Interface logic*
 
 ```csharp
 using System;
@@ -87,7 +87,7 @@ namespace RecordManagementSystem.Application.Features.Account.Interface
 <br>
 <br>
 
-### Infrastructure logic
+###  *Infrastructure repository logic*
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -170,7 +170,7 @@ namespace RecordManagementSystem.Infrastructure.Repository.Features.Account
 <br>
 <br>
 
-### Services Logic
+###  *Application Services Logic*
 
 ```csharp
 using System;
