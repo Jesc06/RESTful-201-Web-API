@@ -3,6 +3,8 @@
 <br>
 <br>
 
+### Note: The 201 Created status or CreatedAtAction return is only used when creating new data only.
+
 ### Controller logic
 
 ```csharp
