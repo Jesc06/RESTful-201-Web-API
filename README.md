@@ -34,7 +34,7 @@ namespace RecordManagementSystem.Controllers.Account
 
 
         [HttpGet("{id}")]
-        public ActionResult<AddStudentUserDataDTO> GetId(int id)
+        public ActionResult GetId(int id)
         {
             var user = _services.GetIdUsers(id);
             return Ok(user);
